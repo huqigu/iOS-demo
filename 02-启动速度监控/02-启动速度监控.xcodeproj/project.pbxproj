@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF4D0CE227730790059405B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D0CD227730790059405B /* AppDelegate.m */; };
+		FDF4D0D1227730790059405B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D0D0227730790059405B /* ViewController.m */; };
+		FDF4D0D4227730790059405B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF4D0D2227730790059405B /* Main.storyboard */; };
+		FDF4D0D62277307A0059405B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF4D0D52277307A0059405B /* Assets.xcassets */; };
+		FDF4D0D92277307A0059405B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF4D0D72277307A0059405B /* LaunchScreen.storyboard */; };
+		FDF4D0DC2277307A0059405B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D0DB2277307A0059405B /* main.m */; };
+		FDF4D0E62277307A0059405B /* _2_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D0E52277307A0059405B /* _2_______Tests.m */; };
+		FDF4D0F12277307A0059405B /* _2_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D0F02277307A0059405B /* _2_______UITests.m */; };
+		FDF4D10122773B4B0059405B /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D0FF22773B4B0059405B /* BSBacktraceLogger.m */; };
+		FDF4D10722773C850059405B /* JCStackMethodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D10622773C850059405B /* JCStackMethodModel.m */; };
+		FDF4D10A22773DA00059405B /* JCStackTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D10922773DA00059405B /* JCStackTimeManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF4D0E22277307A0059405B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF4D0C1227730790059405B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF4D0C8227730790059405B;
+			remoteInfo = "02-启动速度监控";
+		};
+		FDF4D0ED2277307A0059405B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF4D0C1227730790059405B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF4D0C8227730790059405B;
+			remoteInfo = "02-启动速度监控";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDF4D0C9227730790059405B /* 02-启动速度监控.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-启动速度监控.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF4D0CC227730790059405B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF4D0CD227730790059405B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF4D0CF227730790059405B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDF4D0D0227730790059405B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDF4D0D3227730790059405B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF4D0D52277307A0059405B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF4D0D82277307A0059405B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF4D0DA2277307A0059405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF4D0DB2277307A0059405B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF4D0E12277307A0059405B /* 02-启动速度监控Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-启动速度监控Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF4D0E52277307A0059405B /* _2_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_______Tests.m"; sourceTree = "<group>"; };
+		FDF4D0E72277307A0059405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF4D0EC2277307A0059405B /* 02-启动速度监控UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-启动速度监控UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF4D0F02277307A0059405B /* _2_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_______UITests.m"; sourceTree = "<group>"; };
+		FDF4D0F22277307A0059405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF4D0FF22773B4B0059405B /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		FDF4D10022773B4B0059405B /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		FDF4D10522773C850059405B /* JCStackMethodModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCStackMethodModel.h; sourceTree = "<group>"; };
+		FDF4D10622773C850059405B /* JCStackMethodModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCStackMethodModel.m; sourceTree = "<group>"; };
+		FDF4D10822773DA00059405B /* JCStackTimeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCStackTimeManager.h; sourceTree = "<group>"; };
+		FDF4D10922773DA00059405B /* JCStackTimeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCStackTimeManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF4D0C6227730790059405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF4D0DE2277307A0059405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF4D0E92277307A0059405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF4D0C0227730790059405B = {
+			isa = PBXGroup;
+			children = (
+				FDF4D0CB227730790059405B /* 02-启动速度监控 */,
+				FDF4D0E42277307A0059405B /* 02-启动速度监控Tests */,
+				FDF4D0EF2277307A0059405B /* 02-启动速度监控UITests */,
+				FDF4D0CA227730790059405B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF4D0CA227730790059405B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4D0C9227730790059405B /* 02-启动速度监控.app */,
+				FDF4D0E12277307A0059405B /* 02-启动速度监控Tests.xctest */,
+				FDF4D0EC2277307A0059405B /* 02-启动速度监控UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF4D0CB227730790059405B /* 02-启动速度监控 */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4D0CC227730790059405B /* AppDelegate.h */,
+				FDF4D0CD227730790059405B /* AppDelegate.m */,
+				FDF4D0CF227730790059405B /* ViewController.h */,
+				FDF4D0D0227730790059405B /* ViewController.m */,
+				FDF4D0FE22773B2F0059405B /* JCStackTime */,
+				FDF4D0D2227730790059405B /* Main.storyboard */,
+				FDF4D0D52277307A0059405B /* Assets.xcassets */,
+				FDF4D0D72277307A0059405B /* LaunchScreen.storyboard */,
+				FDF4D0DA2277307A0059405B /* Info.plist */,
+				FDF4D0DB2277307A0059405B /* main.m */,
+			);
+			path = "02-启动速度监控";
+			sourceTree = "<group>";
+		};
+		FDF4D0E42277307A0059405B /* 02-启动速度监控Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4D0E52277307A0059405B /* _2_______Tests.m */,
+				FDF4D0E72277307A0059405B /* Info.plist */,
+			);
+			path = "02-启动速度监控Tests";
+			sourceTree = "<group>";
+		};
+		FDF4D0EF2277307A0059405B /* 02-启动速度监控UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4D0F02277307A0059405B /* _2_______UITests.m */,
+				FDF4D0F22277307A0059405B /* Info.plist */,
+			);
+			path = "02-启动速度监控UITests";
+			sourceTree = "<group>";
+		};
+		FDF4D0FE22773B2F0059405B /* JCStackTime */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4D10022773B4B0059405B /* BSBacktraceLogger.h */,
+				FDF4D0FF22773B4B0059405B /* BSBacktraceLogger.m */,
+				FDF4D10522773C850059405B /* JCStackMethodModel.h */,
+				FDF4D10622773C850059405B /* JCStackMethodModel.m */,
+				FDF4D10822773DA00059405B /* JCStackTimeManager.h */,
+				FDF4D10922773DA00059405B /* JCStackTimeManager.m */,
+			);
+			path = JCStackTime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF4D0C8227730790059405B /* 02-启动速度监控 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF4D0F52277307A0059405B /* Build configuration list for PBXNativeTarget "02-启动速度监控" */;
+			buildPhases = (
+				FDF4D0C5227730790059405B /* Sources */,
+				FDF4D0C6227730790059405B /* Frameworks */,
+				FDF4D0C7227730790059405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-启动速度监控";
+			productName = "02-启动速度监控";
+			productReference = FDF4D0C9227730790059405B /* 02-启动速度监控.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF4D0E02277307A0059405B /* 02-启动速度监控Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF4D0F82277307A0059405B /* Build configuration list for PBXNativeTarget "02-启动速度监控Tests" */;
+			buildPhases = (
+				FDF4D0DD2277307A0059405B /* Sources */,
+				FDF4D0DE2277307A0059405B /* Frameworks */,
+				FDF4D0DF2277307A0059405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF4D0E32277307A0059405B /* PBXTargetDependency */,
+			);
+			name = "02-启动速度监控Tests";
+			productName = "02-启动速度监控Tests";
+			productReference = FDF4D0E12277307A0059405B /* 02-启动速度监控Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDF4D0EB2277307A0059405B /* 02-启动速度监控UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF4D0FB2277307A0059405B /* Build configuration list for PBXNativeTarget "02-启动速度监控UITests" */;
+			buildPhases = (
+				FDF4D0E82277307A0059405B /* Sources */,
+				FDF4D0E92277307A0059405B /* Frameworks */,
+				FDF4D0EA2277307A0059405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF4D0EE2277307A0059405B /* PBXTargetDependency */,
+			);
+			name = "02-启动速度监控UITests";
+			productName = "02-启动速度监控UITests";
+			productReference = FDF4D0EC2277307A0059405B /* 02-启动速度监控UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF4D0C1227730790059405B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yellow;
+				TargetAttributes = {
+					FDF4D0C8227730790059405B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FDF4D0E02277307A0059405B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FDF4D0C8227730790059405B;
+					};
+					FDF4D0EB2277307A0059405B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FDF4D0C8227730790059405B;
+					};
+				};
+			};
+			buildConfigurationList = FDF4D0C4227730790059405B /* Build configuration list for PBXProject "02-启动速度监控" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF4D0C0227730790059405B;
+			productRefGroup = FDF4D0CA227730790059405B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF4D0C8227730790059405B /* 02-启动速度监控 */,
+				FDF4D0E02277307A0059405B /* 02-启动速度监控Tests */,
+				FDF4D0EB2277307A0059405B /* 02-启动速度监控UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF4D0C7227730790059405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF4D0D92277307A0059405B /* LaunchScreen.storyboard in Resources */,
+				FDF4D0D62277307A0059405B /* Assets.xcassets in Resources */,
+				FDF4D0D4227730790059405B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF4D0DF2277307A0059405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF4D0EA2277307A0059405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF4D0C5227730790059405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF4D10722773C850059405B /* JCStackMethodModel.m in Sources */,
+				FDF4D0D1227730790059405B /* ViewController.m in Sources */,
+				FDF4D10A22773DA00059405B /* JCStackTimeManager.m in Sources */,
+				FDF4D0DC2277307A0059405B /* main.m in Sources */,
+				FDF4D0CE227730790059405B /* AppDelegate.m in Sources */,
+				FDF4D10122773B4B0059405B /* BSBacktraceLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF4D0DD2277307A0059405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF4D0E62277307A0059405B /* _2_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF4D0E82277307A0059405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF4D0F12277307A0059405B /* _2_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF4D0E32277307A0059405B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF4D0C8227730790059405B /* 02-启动速度监控 */;
+			targetProxy = FDF4D0E22277307A0059405B /* PBXContainerItemProxy */;
+		};
+		FDF4D0EE2277307A0059405B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF4D0C8227730790059405B /* 02-启动速度监控 */;
+			targetProxy = FDF4D0ED2277307A0059405B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF4D0D2227730790059405B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF4D0D3227730790059405B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF4D0D72277307A0059405B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF4D0D82277307A0059405B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF4D0F32277307A0059405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDF4D0F42277307A0059405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF4D0F62277307A0059405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "02-启动速度监控/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yellow.-2-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF4D0F72277307A0059405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "02-启动速度监控/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yellow.-2-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDF4D0F92277307A0059405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "02-启动速度监控Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yellow.-2-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-启动速度监控.app/02-启动速度监控";
+			};
+			name = Debug;
+		};
+		FDF4D0FA2277307A0059405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "02-启动速度监控Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yellow.-2-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-启动速度监控.app/02-启动速度监控";
+			};
+			name = Release;
+		};
+		FDF4D0FC2277307A0059405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "02-启动速度监控UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yellow.-2-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "02-启动速度监控";
+			};
+			name = Debug;
+		};
+		FDF4D0FD2277307A0059405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "02-启动速度监控UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yellow.-2-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "02-启动速度监控";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF4D0C4227730790059405B /* Build configuration list for PBXProject "02-启动速度监控" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF4D0F32277307A0059405B /* Debug */,
+				FDF4D0F42277307A0059405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF4D0F52277307A0059405B /* Build configuration list for PBXNativeTarget "02-启动速度监控" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF4D0F62277307A0059405B /* Debug */,
+				FDF4D0F72277307A0059405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF4D0F82277307A0059405B /* Build configuration list for PBXNativeTarget "02-启动速度监控Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF4D0F92277307A0059405B /* Debug */,
+				FDF4D0FA2277307A0059405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF4D0FB2277307A0059405B /* Build configuration list for PBXNativeTarget "02-启动速度监控UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF4D0FC2277307A0059405B /* Debug */,
+				FDF4D0FD2277307A0059405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF4D0C1227730790059405B /* Project object */;
+}
